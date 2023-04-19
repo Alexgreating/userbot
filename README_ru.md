@@ -142,7 +142,7 @@ https://userbot.getcompass.com/api/v2/user/send
 сотрудника" (доступны только администраторам с правами управления ботами):
 
 
-| <img src="./screenshots/ru/9.png" alt="" width="50%" height="50%"> |
+| <img src="./screenshots/ru/9.png" alt="" width="30%" height="30%"> |
 | --- |
 
 #### Ключ чата
