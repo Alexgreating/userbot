@@ -46,7 +46,7 @@
 | <img src="./screenshots/ru/3.png" alt="" width="550" /> |
 | --- |
 
-| <img src="./screenshots/ru/4.png" alt="" width="550" /> |
+| <img src="./screenshots/ru/4.png" alt="" width="400" /> |
 | --- |
 
 При создании бота вы можете настроить следующие параметры:
