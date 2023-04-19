@@ -35,14 +35,8 @@
 
 Данные права можно выдать только администраторам пространства в настройках участников пространства. Для этого перейдите в раздел "Участники", выберите нужного администратора и далее - "Настроить права":
 
-<style contenteditable>
-  .fun-border {
-    border: 2px solid red;
-  }
-</style>
-
-<img style="contenteditable" src="./screenshots/ru/1.png" width="50%" height="50%">
-
+| <img src="./screenshots/ru/1.png" alt="" width="50%" height="50%"> |
+| --- |
 
 | <img src="./screenshots/ru/2.png" alt="" width="50%" height="50%"> |
 | --- |
