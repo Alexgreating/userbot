@@ -136,7 +136,7 @@ When sending a request, you need to specify where the message from the bot will 
 The user ID (the "user_id" parameter in requests) is used when sending a message to a specific user. It cn be found in the Compass app under "
 Employee Card" (available only to members of your company with the "Programmer" role):
 
-| <img src="./screenshots/en/en9.png" alt="" width="550" />  |
+| <img src="./screenshots/en/en9.png" alt="" width="400" />  |
 |------------------------------------------|
 
 #### Chat Key
