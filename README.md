@@ -1,7 +1,7 @@
 [![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/getCompass/userbot/blob/master/README.md)
 [![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/getCompass/userbot/blob/master/README_ru.md)
 
-- [Chatbot](#Chatbot)
+- [Bot](#Bot)
 - [Creating a bot](#Creating-a-bot)
   - [Bot credentials](#Bot-credentials)
 - [Sending a request to Compass](#Sending-a-request-to-Compass)
@@ -14,48 +14,46 @@
 - [Additional message formatting](#Additional-message-formatting)
 - [Errors in executing the Compass Userbot API request](#Errors-in-executing–the-Compass-Userbot-API-request)
 - [Library for Compass Chatbot API](#Library-for-Compass-Chatbot-API)
-## Chatbot ##
+## Bot ##
 
-Chatbots are special accounts created to perform actions within the Compass application on behalf of the bot.
+A bot is a special account in the Compass app created by the user to automatically perform customized actions.
+What the Compass bot can do:
+- send messages to private and group chats
+- add reactions to messages
+- send files to a chat
+- collect basic information on workspace members (user_id, name, URL of the profile picture)
 
-Our chatbot knows how to:
-- Send a message to a user or to a group chat
-- Add reactions to messages
-- Send files to a chat
-- Collect basic information on company members (user_id, name, URL of an avatar file)
+The actions listed above are implemented through special requests described below in “Compass Userbot API method list”.
 
-The actions listed above are implemented through special requests described in [Compass Userbot API methods](#Compass-Userbot-API-methods).
-
-Also, if you enable "Respond to commands" mode, the bot will start responding to commands that you specify and redirect them to your webhook address (more details in [Webhook and responding to commands](#Webhook-and-responding-to-commands)).
+Also, if you enable "Respond to commands" mode, the bot will start responding to commands that you specify and redirect them to your webhook address (more details about it below in “Webhook and responding to commands”).
 
 ## Creating a bot ##
 
-Creating a bot is available to a person who has a Programmer's role in the company.<br>
-This role can be given by the company executive using the company menu (by clicking on the company name, then — "Settings", and then — "Set up roles"):
+Creating a bot is possible for an administrator with bot managing permission.
+Only administrators can be given such permission in the workspace member settings. To give the permission go to "Members", select the administrator and then select "Set permissions".
 
-| ![](screenshots/en/uhrvj5kzleid9x17n.png) |
+| <img src="./screenshots/en/en1.png" alt="" width="550" /> |
 |-----------------------------------------|
 
-| ![](screenshots/en/poronorgdutmiwwfk.png) |
+| <img src="./screenshots/en/en2.png" alt="" width="550" />  |
 |-----------------------------------------|
 
-After adding a role to a user, a new functionality for managing bots will appear in their menu:
+After permissions are set, the sidebar will be updated and managing bot option will become available:
 
-| ![](screenshots/en/4h4ajtl1c7942w02v.png) |
+| <img src="./screenshots/en/en3.png" alt="" width="550" />  |
 |------------------------------------------|
 
-| ![](screenshots/en/i52yotwf05cy03wrq.png) |
+| <img src="./screenshots/en/en4.png" alt="" width="550" />  |
 |------------------------------------------|
 
-When creating a bot, you can set up the following:
+When creating a bot you may set the following parameters:
+- bot name
+- bot role
+- webhook, where member commands will be redirected
 
-- name of a new bot;
-- description of what the bot is used for;
-- webhook to which user commands will be redirected.<br>
+Webhook is your service's URL. After setting it up, the bot is enabled to respond to the commands by redirecting them to the address you specified.
 
-Webhook is the URL of your service. After installing it, the bot is enabled to respond to the Programmer's commands by redirecting them to the address you specified.
-
-| ![](screenshots/en/st0i28z6us011ag6g.png) |
+| <img src="./screenshots/en/en5.png" alt="" width="550" />  |
 |-------------------------------------------|
 
 #### Bot credentials
@@ -63,18 +61,18 @@ After creating a bot in the "Bot Card" section, you will get a **Token** and a *
 
 **The bot token** is a unique identifier for each bot.
 
-| ![](screenshots/en/9ndy89erq98s3vuky.png) |
+| <img src="./screenshots/en/en6.png" alt="" width="550" /> |
 |------------------------------------------|
 
 **The signature key** is the key for generating a signature, which is used to sign each sent request. It is required to confirm that the request was sent from your bot.
 
-| ![](screenshots/en/on7bftvy98gwuzq9n.png) |
+| <img src="./screenshots/en/en7.png" alt="" width="550" /> |
 |-------------------------------------------|
 
 ⚠️ Warning: **Do not disclose your bot's Token and Signature Key** to the third parties.<br>
 If this happens, it is recommended to change the signature key in the Compass application through the bot settings:
 
-| ![](screenshots/en/ozdihrnawiaky9fz1.png) |
+| <img src="./screenshots/en/en8.png" alt="" width="550" /> |
 |------------------------------------------|
 
 Thus, all bot requests that used the compromised signature key will become invalid for the Compass application.
@@ -138,7 +136,7 @@ When sending a request, you need to specify where the message from the bot will 
 The user ID (the "user_id" parameter in requests) is used when sending a message to a specific user. It cn be found in the Compass app under "
 Employee Card" (available only to members of your company with the "Programmer" role):
 
-| ![](screenshots/en/ggr9xlshwpwzabbex.png) |
+| <img src="./screenshots/en/en9.png" alt="" width="550" />  |
 |------------------------------------------|
 
 #### Chat Key
@@ -146,7 +144,7 @@ Employee Card" (available only to members of your company with the "Programmer" 
 The unique identifier of the group (used as "group_id" in requests) of which the bot is a member.<br>
 Available to a member with the "Programmer" role under "Chatbot Menu" in the group chat:
 
-| ![](screenshots/en/joe56zi6pbx3phsur.png) |
+| <img src="./screenshots/en/en10.png" alt="" width="550" />  |
 |------------------------------------------|
 
 Example of a chat key:
@@ -276,19 +274,19 @@ Let's look at the scheme of getting the result by the example of sending a messa
 >}
 >```
 
-| ![](screenshots/en/vgwwsuavuiynz36bm.png) |
+| <img src="./screenshots/en/en11.png" alt="" width="550" />  |
 |------------------------------------------|
 
 ## Webhook and responding to commands
 
 The bot can respond to special commands added by the Programmer using the [/command/update](#post-commandupdate):
 
-| ![](screenshots/en/4ekq5flhdzjpg0sd2.png) |
+| <img src="./screenshots/en/en12.png" alt="" width="550" />  |
 |------------------------------------------|
 
 The preset commands will be visible to each company member under "Bot Card" section:
 
-| ![](screenshots/en/ux7cqqdpionaigt0s.png) |
+| <img src="./screenshots/en/en13.png" alt="" width="550" />  |
 |------------------------------------------|
 
 When a user sends a command to a bot with "Respond to commands" mode enabled, and a webhook is installed, the data of the following form is sent to the specified address:
@@ -1040,7 +1038,7 @@ List of possible errors:
 
 The bot has a functionality that allows you to mention the user in the sent message:
 
-| ![](screenshots/en/jkgim0rg9byernvph.png) |
+| <img src="./screenshots/en/en14.png" alt="" width="550" />  |
 |------------------------------------------|
 
 To do this, the message text must have the format of:<br>
@@ -1060,7 +1058,7 @@ example, change the font style or highlight words with a certain color:
 - text highlighted in green: \++green selection\++
 - text highlighted in red: \--red selection\--
 
-| ![](screenshots/en/p9w3zf4waugw36o1w.png) |
+| <img src="./screenshots/en/en15.png" alt="" width="550" />  |
 |------------------------------------------|
 
 
