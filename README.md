@@ -35,7 +35,7 @@ Only administrators can be given such permission in the workspace member setting
 | <img src="./screenshots/en/en1.png" alt="" width="550" /> |
 |-----------------------------------------|
 
-| <img src="./screenshots/en/en2.png" alt="" width="550" />  |
+| <img src="./screenshots/en/en2.png" alt="" width="400" />  |
 |-----------------------------------------|
 
 After permissions are set, the sidebar will be updated and managing bot option will become available:
@@ -43,7 +43,7 @@ After permissions are set, the sidebar will be updated and managing bot option w
 | <img src="./screenshots/en/en3.png" alt="" width="550" />  |
 |------------------------------------------|
 
-| <img src="./screenshots/en/en4.png" alt="" width="550" />  |
+| <img src="./screenshots/en/en4.png" alt="" width="400" />  |
 |------------------------------------------|
 
 When creating a bot you may set the following parameters:
@@ -53,7 +53,7 @@ When creating a bot you may set the following parameters:
 
 Webhook is your service's URL. After setting it up, the bot is enabled to respond to the commands by redirecting them to the address you specified.
 
-| <img src="./screenshots/en/en5.png" alt="" width="550" />  |
+| <img src="./screenshots/en/en5.png" alt="" width="400" />  |
 |-------------------------------------------|
 
 #### Bot credentials
@@ -61,18 +61,18 @@ After creating a bot in the "Bot Card" section, you will get a **Token** and a *
 
 **The bot token** is a unique identifier for each bot.
 
-| <img src="./screenshots/en/en6.png" alt="" width="550" /> |
+| <img src="./screenshots/en/en6.png" alt="" width="400" /> |
 |------------------------------------------|
 
 **The signature key** is the key for generating a signature, which is used to sign each sent request. It is required to confirm that the request was sent from your bot.
 
-| <img src="./screenshots/en/en7.png" alt="" width="550" /> |
+| <img src="./screenshots/en/en7.png" alt="" width="400" /> |
 |-------------------------------------------|
 
 ⚠️ Warning: **Do not disclose your bot's Token and Signature Key** to the third parties.<br>
 If this happens, it is recommended to change the signature key in the Compass application through the bot settings:
 
-| <img src="./screenshots/en/en8.png" alt="" width="550" /> |
+| <img src="./screenshots/en/en8.png" alt="" width="400" /> |
 |------------------------------------------|
 
 Thus, all bot requests that used the compromised signature key will become invalid for the Compass application.
