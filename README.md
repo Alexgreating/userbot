@@ -286,7 +286,7 @@ The bot can respond to special commands added by the Programmer using the [/comm
 
 The preset commands will be visible to each company member under "Bot Card" section:
 
-| <img src="./screenshots/en/en13.png" alt="" width="550" />  |
+| <img src="./screenshots/en/en13.png" alt="" width="400" />  |
 |------------------------------------------|
 
 When a user sends a command to a bot with "Respond to commands" mode enabled, and a webhook is installed, the data of the following form is sent to the specified address:
