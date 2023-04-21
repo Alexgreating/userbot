@@ -13,7 +13,7 @@
 - [Compass Userbot API methods](#Compass-Userbot-API-methods)
 - [Additional message formatting](#Additional-message-formatting)
 - [Errors in executing the Compass Userbot API request](#Errors-in-executing–the-Compass-Userbot-API-request)
-- [Library for Compass Chatbot API](#Library-for-Compass-Chatbot-API)
+- [Library for Compass Bot API](#Library-for-Compass-Chatbot-API)
 ## Bot ##
 
 A bot is a special account in the Compass app created by the user to automatically perform customized actions.
@@ -1116,4 +1116,4 @@ Here is the **list of errors** that are displayed when a request fails, for exam
 ## Library for working with the Compass app bot API
 
 For your convenience, we have created the Library for working with the Compass app bot API:<br>
-[A library for working with the chatbot API](https://github.com/getCompass/php_lib_userbot). <br>
+[A library for interacting with the Compass Bot API](https://github.com/getCompass/php_lib_userbot). <br>
