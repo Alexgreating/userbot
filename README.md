@@ -10,7 +10,7 @@
   - [Getting the result of the sent request](#Getting-the-result-of-the-sent-request)
 - [Webhook and responding to commands](#Webhook-and-responding-to-commands)
   - [Bot Webhook version](#Bot-Webhook-version)
-- [Compass Userbot API methods](#Compass-Userbot-API-methods)
+- [Compass Userbot API method list](#Compass-Userbot-API-method-list)
 - [Additional message formatting](#Additional-message-formatting)
 - [Errors in executing the Compass Userbot API request](#Errors-when-executing-the-Compass-Userbot-API-request)
 - [Library for Compass Bot API](#Library-for-working-with-the-Compass-Bot-API)
