@@ -13,7 +13,7 @@
 - [Compass Userbot API method list](#Compass-Userbot-API-method-list)
 - [Additional message formatting](#Additional-message-formatting)
 - [Errors in executing the Compass Userbot API request](#Errors-when-executing-the-Compass-Userbot-API-request)
-- [Library for Compass Bot API](#Library-for-working-with-the-Compass-Bot-API)
+- [Library for Compass Userbot API](#Library-for-working-with-the-Compass-Userbot-API)
 ## Bot ##
 
 A bot is a special account in the Compass app created by the user to automatically perform customized actions.
@@ -1113,7 +1113,7 @@ Here is the **list of errors** that are displayed when a request fails, for exam
 | 1010 | Failed to load the file. |
 | 1011 | An incorrect version of the webhook was transmitted. |
 
-## Library for working with the Compass Bot API
+## Library for working with the Compass Userbot API
 
 For your convenience, we have created the Library for working with the Compass app bot API:<br>
-[A library for interacting with the Compass Bot API](https://github.com/getCompass/php_lib_userbot). <br>
+[A library for interacting with the Compass Userbot API](https://github.com/getCompass/php_lib_userbot). <br>
