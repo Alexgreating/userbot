@@ -12,7 +12,7 @@
   - [Bot Webhook version](#Bot-Webhook-version)
 - [Compass Userbot API methods](#Compass-Userbot-API-methods)
 - [Additional message formatting](#Additional-message-formatting)
-- [Errors in executing the Compass Userbot API request](#Errors-when-executing-the-Compass-Userbot-API-request)
+- [Errors in executing the Compass Userbot API request](#Library-for-working-with-the-Compass-Bot-API)
 - [Library for Compass Bot API](#Library-for-Compass-Chatbot-API)
 ## Bot ##
 
@@ -1113,7 +1113,7 @@ Here is the **list of errors** that are displayed when a request fails, for exam
 | 1010 | Failed to load the file. |
 | 1011 | An incorrect version of the webhook was transmitted. |
 
-## Library for working with the Compass app bot API
+## Library for working with the Compass Bot API
 
 For your convenience, we have created the Library for working with the Compass app bot API:<br>
 [A library for interacting with the Compass Bot API](https://github.com/getCompass/php_lib_userbot). <br>
