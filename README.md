@@ -12,7 +12,7 @@
   - [Bot Webhook version](#Bot-Webhook-version)
 - [Compass Userbot API methods](#Compass-Userbot-API-methods)
 - [Additional message formatting](#Additional-message-formatting)
-- [Errors in executing the Compass Userbot API request](#Errors-in-executing–the-Compass-Userbot-API-request)
+- [Errors in executing the Compass Userbot API request](#Errors-when-executing-the-Compass-Userbot-API-request)
 - [Library for Compass Bot API](#Library-for-Compass-Chatbot-API)
 ## Bot ##
 
