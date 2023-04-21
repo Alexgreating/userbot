@@ -12,8 +12,8 @@
   - [Bot Webhook version](#Bot-Webhook-version)
 - [Compass Userbot API methods](#Compass-Userbot-API-methods)
 - [Additional message formatting](#Additional-message-formatting)
-- [Errors in executing the Compass Userbot API request](#Library-for-working-with-the-Compass-Bot-API)
-- [Library for Compass Bot API](#Library-for-Compass-Chatbot-API)
+- [Errors in executing the Compass Userbot API request](#Errors-when-executing-the-Compass-Userbot-API-request)
+- [Library for Compass Bot API](#Library-for-working-with-the-Compass-Bot-API)
 ## Bot ##
 
 A bot is a special account in the Compass app created by the user to automatically perform customized actions.
