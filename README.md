@@ -1115,5 +1115,5 @@ Here is the **list of errors** that are displayed when a request fails, for exam
 
 ## Library for working with the Compass Userbot API
 
-For your convenience, we have created the Library for working with the Compass app bot API:<br>
+For your convenience, we have created the Library for working with the Compass app Userbot API:<br>
 [A library for interacting with the Compass Userbot API](https://github.com/getCompass/php_lib_userbot). <br>
