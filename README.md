@@ -137,7 +137,7 @@ The member ID (the "user_id" parameter in requests) is used when sending a messa
 | <img src="./screenshots/en/en9.png" alt="" width="400" />  |
 |------------------------------------------|
 
-#### Conversation Key
+#### Chat Key
 
 Unique identifier of the group which the bot is a member of (used as "group_id" in requests).<br>
 It is available to members with the permission to manage bots in the "Bot settings" section in a group chat:
