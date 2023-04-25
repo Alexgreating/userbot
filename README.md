@@ -126,9 +126,9 @@ https://userbot.getcompass.com/api/v2/user/send
 The bot can send a message to the group it is a member of, a particular member, as well as in the comments to the message.
 
 When sending a request, you need to specify where the message from the bot will be sent to:
-- if you need to send it to a member, the member ID (the message receiver) is required
-- if you need to send it to a group, you need a unique conversation key
-- if you need to send it in comments, the message key to create a comment thread is required
+- if you need to send it to a member, the member ID (the message receiver) is required;
+- if you need to send it to a group, you need a unique conversation key;
+- if you need to send it in comments, the message key to create a comment thread is required.
 
 #### Member ID
 
