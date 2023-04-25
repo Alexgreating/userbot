@@ -631,7 +631,7 @@ List of possible errors:
 The method for removing reactions from messages.<br>
 URL for the request: `https://userbot.getcompass.com/api/v2/message/removeReaction`
 
-The Compass app supports a list of reactions of version 14.0: https://emojipedia.org/emoji-14.0/. <br>
+The Compass app supports a list of reactions of version 15.0: https://emojipedia.org/emoji-15.0/. <br>
 
 The following parameters must be specified in the request body:
 

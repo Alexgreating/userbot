@@ -659,8 +659,8 @@ URL для запроса: `https://userbot.getcompass.com/api/v2/message/addRea
 Метод для удаления реакции бота с сообщения.<br>
 URL для запроса: `https://userbot.getcompass.com/api/v2/message/removeReaction`
 
-Приложение Compass поддерживает список реакций версии 14.0:<br>
-https://emojipedia.org/emoji-14.0/. <br>
+Приложение Compass поддерживает список реакций версии 15.0:<br>
+https://emojipedia.org/emoji-15.0/. <br>
 
 В теле запроса должны быть указаны следующие параметры:
 
