@@ -18,10 +18,10 @@
 
 A bot is a special account in the Compass app created by the user to automatically perform customized actions.
 What the Compass bot can do:
-- send messages to private and group chats;
-- add reactions to messages;
-- send files to a chat;
-- collect basic information on workspace members (user_id, name, URL of the profile picture).
+- send messages to private and group chats
+- add reactions to messages
+- send files to a chat
+- collect basic information on workspace members (user_id, name, URL of the profile picture)
 
 The actions listed above are implemented through special requests described below in “Compass Userbot API method list”.
 
