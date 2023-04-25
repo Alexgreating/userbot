@@ -18,10 +18,10 @@
 
 A bot is a special account in the Compass app created by the user to automatically perform customized actions.
 What the Compass bot can do:
-- send messages to private and group chats
-- add reactions to messages
-- send files to a chat
-- collect basic information on workspace members (user_id, name, URL of the profile picture)
+- send messages to private and group chats;
+- add reactions to messages;
+- send files to a chat;
+- collect basic information on workspace members (user_id, name, URL of the profile picture).
 
 The actions listed above are implemented through special requests described below in “Compass Userbot API method list”.
 
@@ -126,9 +126,9 @@ https://userbot.getcompass.com/api/v2/user/send
 The bot can send a message to the group it is a member of, a particular member, as well as in the comments to the message.
 
 When sending a request, you need to specify where the message from the bot will be sent to:
-- if you need to send it to a member, the member ID (the message receiver) is required;
-- if you need to send it to a group, you need a unique conversation key;
-- if you need to send it in comments, the message key to create a comment thread is required.
+- if you need to send it to a member, the member ID (the message receiver) is required
+- if you need to send it to a group, you need a unique conversation key
+- if you need to send it in comments, the message key to create a comment thread is required
 
 #### Member ID
 
@@ -261,7 +261,7 @@ Let's look at the scheme of getting the result by the example of sending a messa
 >    }
 >}
 >```
-- such a response means that the request has not been executed yet — it is enough to wait a little (we recommend an interval of no more than 0.5 seconds), then re-request the result using [/request/get](#post-requestget)
+- such a response means that the request has not been executed yet — it is enough to wait a little (we recommend an interval of no more than 0.5 seconds), then re-request the result using [/request/get](#post-requestget);
 - if the message is successfully sent, the method will return the result of executing the request — in this example, it is the `message_id` of the message sent by the bot:
 >```json5
 >{
