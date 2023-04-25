@@ -581,7 +581,7 @@ List of possible errors:
 The method for adding bot's reactions to the message.<br>
 URL for the request: `https://userbot.getcompass.com/api/v2/message/addReaction`
 
-The Compass app supports a list of reactions of version 14.0: https://emojipedia.org/emoji-14.0/. <br>
+The Compass app supports a list of reactions of version 15.0: https://emojipedia.org/emoji-15.0/. <br>
 
 The following parameters must be specified in the request body:
 
@@ -1082,7 +1082,7 @@ If an error occurred during the execution of the request, the response is return
 
 Here is the list of **system errors** that are displayed when invalid data is transmitted and when the request has not yet been executed.
 
-| error_code | Описание |
+| error_code | Meaning |
 | --- | --- |
 | 1 | There are no fields required for the request. |
 | 2 | The request token is not found. |

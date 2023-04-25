@@ -608,7 +608,7 @@ message_id (string) — ключ сообщения, отправленного 
 
 URL для запроса: `https://userbot.getcompass.com/api/v2/message/addReaction`
 
-Приложение Compass поддерживает список реакций версии 14.0: https://emojipedia.org/emoji-14.0/. <br>
+Приложение Compass поддерживает список реакций версии 15.0: https://emojipedia.org/emoji-15.0/. <br>
 
 В теле запроса должны быть указаны следующие параметры:
 
