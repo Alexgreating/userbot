@@ -1,7 +1,7 @@
 [![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/getCompass/userbot/blob/master/README.md)
 [![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/getCompass/userbot/blob/master/README_ru.md)
 
-- [Бот](#Чат-бот)
+- [Бот](#Бот)
 - [Создание бота](#Создание-бота)
     - [Учётные данные бота](#Учётные-данные-бота)
 - [Отправка запроса в Compass](#Отправка-запроса-в-Compass)
