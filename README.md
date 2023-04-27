@@ -1002,6 +1002,7 @@ URL for the request: `https://file1.getcompass.com/api/userbot/files/upload`
 - no more than 50 files are available for upload in 5 minutes
 
 After a successful file loading (synchronous execution - the file will be loaded immediately) the response from the method will return:
+
 file_id (string) — unique identifier of the loaded file.
 
 <details><summary>The example of the result of completing the request</summary>
@@ -1045,7 +1046,7 @@ To do this, the message text must have the format of:<br>
 `["@"|<numeric identifier user_id>|<member name>|]`
 
 With the example above, let's assume that Fred Smith has a member ID 345. To get the message like in the example the message test sent by the bot must be of the following format:<br>
-`["@"|345|Fyodor Denisov] data generated Insert tag (Option+1)✅`
+`["@"|345|Fred Smith] data generated Insert tag (Option+1)✅`
 
 ---
 
