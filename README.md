@@ -17,6 +17,7 @@
 ## Bot ##
 
 A bot is a special account in the Compass app created by the user to automatically perform customized actions.
+
 What the Compass bot can do:
 - send messages to private and group chats
 - add reactions to messages
