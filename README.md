@@ -807,7 +807,7 @@ The following parameters must be specified in the request body:
 A few rules for setting commands:
 
 - The length of the command must not exceed 80 characters.
-- The command can have parameters enclosed in square brackets. In this case, the pattern for defining commands for the bot will "ignore" them during processing, treating them as a sent parameter. For example, a bot command list includes the command: "send the message to the member [ID]". If the message "/send message to member [1666]" is sent to the chat, the parser will define it as a command. 
+- The command can have parameters enclosed in square brackets. In this case, the pattern for defining commands for the bot will "ignore" them during processing, treating them as a sent parameter. <br> For example, a bot command list includes the command: "send the message to the member [ID]". If the message "/send message to member [1666]" is sent to the chat, the parser will define it as a command. 
 - Commands can contain Cyrillic and Latin alphabet symbols, numbers and an underscore. For example, /help, /whose client[ID], /set_timer 10 min.
 
 > /help
