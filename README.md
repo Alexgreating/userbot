@@ -382,7 +382,7 @@ Data for the request body:
 {"request_id": "2f991a80-750c-4abc-b7e1-1f16456de59d"}
 ```
 
-The result of executing the request (for example, information about the company's participants was requested)
+The result of executing the request (for example, information about the workspace participants was requested)
 ```json5 
 {
      "status": "ok",
