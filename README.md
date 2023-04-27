@@ -1055,7 +1055,7 @@ For example, you can change the typeface or highlight words in a certain color:
 - strikethrough text: \~strikethrough text\~
 - text on a black background: \`text on a black background\`
 - text highlighted in green: \++green selection\++
-- text highlighted in red: \--red selection\--
+- text highlighted in pink: \--pink selection\--
 
 | <img src="./screenshots/en/en15.png" alt="" width="550" />  |
 |------------------------------------------|
