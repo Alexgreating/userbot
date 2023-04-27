@@ -217,7 +217,7 @@ In case of success, the response field may have the data of the executed request
 
 If an error occurs the field **status** acquires the "error" value.<br>
 In this case **response** field will contain the following fields:
-- **error_code** (int) — error code. For more details, see below ["Errors when executing the Compass Userbot API request"](#Errors-when-executing-the-Compass-Usbot-API-request);
+- **error_code** (int) — error code. For more details, see below ["Errors when executing the Compass Userbot API request"](#Errors-when-executing-the-Compass-Userbot-API-request);
 - **message** (string) — arbitrary error text.
 
 **Example of an error response:**
@@ -338,7 +338,7 @@ After receiving the data on your webhook, you can:
 Each Compass bot has a webhook version that allows for more flexible interaction with the Userbot API when API changes.<br>
 
 Let's look at the example:<br>
-In the new version of the Usbot API, the format of data sent to your webhook address has changed, for example, a new chat type has appeared:
+In the new version of the Userbot API, the format of data sent to your webhook address has changed, for example, a new chat type has appeared:
 >type: "group/single/ **(new) channel**"
 
 In this case previously used bot will have a webhook version **not affected** by changes and your webhook address will get known format data.<br>
