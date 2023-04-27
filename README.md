@@ -484,7 +484,7 @@ The following parameters must be specified in the request body:
 | file_id | string | required if the text parameter is not transferred | the file identifier for a file message.<br> See more about file_id in [“POST /file/getUrl”](#post-filegeturl) below. |
 | type | string | required | For text messages parameter = "text" is required. For files parameter = "file" is required. |
 
-The method's response will return the `request_id` of the request that is executed asynchronously. The result of the execution can be received by using the method [/request/get](#post-requestget) method.<br>The
+The method's response will return the `request_id` of the request that is executed asynchronously. The result of the execution can be received by using the [/request/get](#post-requestget) method.
 
 The result of the execution can be received by using the method<br>
 message_id (string) — message key sent by the bot in a group chat.
