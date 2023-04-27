@@ -60,6 +60,7 @@ Webhook is your service's URL. After setting it up, the bot is enabled to respon
 
 #### Bot credentials
 After creating a bot, you will get a **Token** and a **Signature Key** for the new bot (visible only to administrators with bot managing permission).
+
 **The bot token** is a unique identifier for each bot.
 
 | <img src="./screenshots/en/en6.png" alt="" width="400" /> |
