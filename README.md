@@ -162,7 +162,7 @@ The identifier of a message (used as "message_id" in requests) that the bot is w
 
 To get a signature, follow these steps:
 
-- for example, let's take a request to send a message from a bot to a specific member (the [/user/send](#post-usersend));
+- for example, let's take a request to send a message from a bot to a specific member (the [/user/send](#post-usersend) method);
 - specifying parameters and values for the request body:
 >```json5  
 >{
@@ -237,10 +237,10 @@ All the requests to Compass except for [/request/get](#post-requestget) method a
 After executing the request it is necessary to request it using the identifier - `request_id`. 
 This is the unique identifier of the performed request in Compass.
 
-After successfully sending a request to Compass, you can request the result with a 0.5 seconds interval using the [/request/get](#post-requestget).<br>
+After successfully sending a request to Compass, you can request the result with a 0.5 seconds interval using the [/request/get](#post-requestget) method.<br>
 
 Let's look at the scheme of getting the result by the example of sending a message from a bot:
-- performing the [/user/send](#post-usersend),  request by sending the text: Hello, this is bot :blush:
+- performing the [/user/send](#post-usersend) method, request by sending the text: Hello, this is bot :blush:
 - the request response will contain its `request_id`:
 ```json5 
 {
